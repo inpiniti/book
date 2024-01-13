@@ -1,0 +1,11 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "node", // 여기에 추가합니다.
+    "paths": {
+      "@/*": ["./*"] // '@' 경로 별칭이 'src' 폴더를 가리키도록 설정합니다.
+    }
+    // 다른 컴파일러 옵션...
+  }
+}
