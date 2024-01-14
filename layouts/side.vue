@@ -16,7 +16,7 @@ defineProps<SidebarProps>();
           <div class="space-y-4 py-4">
             <div class="px-3 py-2">
               <h2 class="mb-2 px-4 text-lg font-semibold tracking-tight">
-                Discover
+                Table
               </h2>
               <div class="space-y-1">
                 <Button variant="secondary" class="w-full justify-start">
@@ -33,7 +33,7 @@ defineProps<SidebarProps>();
                     <circle cx="12" cy="12" r="10" />
                     <polygon points="10 8 16 12 10 16 10 8" />
                   </svg>
-                  Listen Now
+                  Book Data
                 </Button>
                 <Button variant="ghost" class="w-full justify-start">
                   <svg
@@ -201,7 +201,9 @@ defineProps<SidebarProps>();
             </div>
           </div>
         </div>
-        <slot />
+        <div class="col-span-4">
+          <slot />
+        </div>
       </div>
     </div>
   </div>
