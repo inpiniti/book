@@ -2,7 +2,6 @@ import type { ColumnDef } from "@tanstack/vue-table";
 import DropdownAction from "@/components/DataTableDropDown.vue";
 import { ArrowUpDown, ChevronDown } from "lucide-vue-next";
 import { Button } from "@/components/ui/button";
-import { Checkbox } from "@/components/ui/checkbox";
 
 // This type is used to define the shape of our data.
 // You can use a Zod schema here if you want.

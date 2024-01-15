@@ -34,11 +34,13 @@ async function select() {
 import { columns } from "./columns";
 </script>
 <template>
-  <OrganismDialogBook />
-  <div class="flex flex-col">
-    <PageHeader />
-    <div class="container py-10 mx-auto">
-      <DataTable :columns="columns" :data="book.data" />
+  <div>
+    <OrganismDialogBook />
+    <div class="flex flex-col">
+      <PageHeader />
+      <div class="pr-10 py-10 mx-auto">
+        <DataTable :columns="columns" :data="book.data" />
+      </div>
     </div>
   </div>
 </template>
